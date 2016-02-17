@@ -1,0 +1,159 @@
+<p>
+    <strong><u>Inventory system API v1.0</u></strong>
+</p>
+<p>
+    <strong><em><u>Introduction</u></em></strong>
+</p>
+<p>
+    This is a documentation about Inventory System API coded by Javier Garcia. We've developed the ''slnValantExercise'' solution with Visual Studio 2015 and
+    C# framework .NET 4.5:
+</p>
+<p>
+    - WCF soap based service, LINQ, Dictionary data structure.
+	<a href="./InventoryWcfService" >Go to solution folder</a>
+</p>
+<p>
+    <em> </em>
+</p>
+<p>
+    <strong><em><u>Assumptions:</u></em></strong>
+</p>
+<p>
+    - We assume it is not possible to create an Item with empty label and it is not allowed to have two items with the same label, the API would throw an error
+    for these cases.
+</p>
+<p>
+    - If we try to take out an item which isn't in the Inventory, then again we'll obtain an error for that.
+</p>
+<p>
+    - We have a Log file (inside our solution) which contains the Notifications for the Inventory System (if you execute some of tests, they'll simulate the
+    two types of notification)
+    <br/>
+    The log file is located in: <em>InventoryWcfService\UnitTestInventory\bin\Debug\LogInventory.txt</em>
+</p>
+<p>
+    - We've simplified the <em>EventManager</em> which adds the Notifications in the log file. It would have been better to have a schedule job that executes
+every night to check the expiration date of the items in the Inventory. Instead, we'll check the “expiration date” every time the method ''    <em>GetListItems</em>'' is called.
+</p>
+<p>
+    - We don't use session state, two different clients have their different Inventory System. As a future requirement, it would have been better to have a
+    shared system (in a common repository such as a database)
+</p>
+<p>
+    <strong><em><u>Approach &amp; Technical Design:</u></em></strong>
+</p>
+<p>
+    - We've created a solution with 3 projects:
+</p>
+<p>
+    o <strong>Inventory.WcfService</strong> with our API Front which contains the four basic methods for the Inventory System and the Service Contract.
+</p>
+<p>
+    o <strong>Inventory.Data</strong> is the responsible to have the Business Logic, Repositories and Model. We've used the Repository and Façade patterns
+    approach. We've implemented also the classes with Interfaces, we would have liked to use Dependency Inversion Principle for that, we didn’t have so many
+    time but the solution is almost ready for that.
+</p>
+<p>
+    o <strong>Inventory.Tests</strong> where we test separately every class (<em>RepositoryTests</em>) and Acceptance Tests.
+</p>
+<p>
+    <strong><u>Extensibility:</u></strong>
+</p>
+<p>
+    - If we'd modify as HTTP WebAPI using JSON request/response, we might call from many places: web page backend or client-side using some Javascript
+    libraries like JQuery.
+</p>
+<p>
+    - We can append new functionality and features in our Inventory system as the following:
+</p>
+<p>
+    o Add Supplier in the model and have a relation between supplier and items.
+</p>
+<p>
+    o Add new properties in our Item model: Amount, Price per Item, Supplier Id, Item picture, Details.
+</p>
+<p>
+    o Add Order as a collection of items and calculate the total price.
+</p>
+<p>
+    o Generate API methods to have reporting about evolution of stock item (date/stock).
+</p>
+<p>
+    o Create a Notification for knowing when an item are going to be close to expiry.
+</p>
+<p>
+    <strong><em><u>Maintainability:</u></em></strong>
+</p>
+<p>
+    We've used some practices and principles and consequently the solution will be more maintainable and durable:
+</p>
+<p>
+    - Inside Facade we store all Business Logic for the Inventory System, if we need to add or modify, you just only have to go inside Service Facade.
+</p>
+<p>
+    - It's easy to test and maintain using Repository approach. For example, if we decide in the future to change the data structure of the Inventory in a
+    database, we only have to recode the <em>InventoryRepository</em> and the repository tests are still valid.
+</p>
+<p>
+    - If we want to refactor some parts of the code, we can do safety because the <em>Tests </em>created cover all functionality and code.
+</p>
+<p>
+    <strong><em><u>Performance:</u></em></strong>
+</p>
+<p>
+    - We've used simple classes and the inventory system is stored in memory. It is not a significant performance if we have few products.
+</p>
+<p>
+    - If we have to manage an Inventory system with lots of products, it is worth to have our repository as relational database with a table and index column
+    or NoSql database &lt;key,value&gt; type. We think the API method that penalizes performance is <em>GetItem</em>(string). It is also a good practice adding
+    some performance and stress tests and see the times to execute API methods with huge amount of data and also check if these times are acceptable.
+</p>
+<p>
+    <strong><em><u>Security:</u></em></strong>
+</p>
+<p>
+    - There are several ways to add security in our API: we can verify user credentials (username/password) or use access tokens to add authentication. If we
+    assume user/password it would be fine not to have plain text password in your repository (hashed or encrypted).
+</p>
+<p>
+    - If we provide HTTP headers to send user/password, they always have to be encrypted and we should add a timestamp to avoid ''man in the middle'' attack.
+</p>
+<p>
+    - If we are going to have sensible data as personal info: credits cards, bank accounts, medical history, etc. then we must use SSL in our communications.
+</p>
+<p>
+    <strong><em><u>API Methods:</u></em></strong>
+</p>
+<p>
+    <strong>Item : AddItem(string,DateTime)</strong>
+</p>
+<p>
+    <em>Parameters</em>: label and expiration.
+</p>
+<p>
+    Returns a new item created (Item)
+</p>
+<p>
+    <strong>void : TakeItem(int)</strong>
+</p>
+<p>
+    <em>Parameters</em>: id item
+</p>
+<p>
+    <strong>List&lt;Item&gt; : GetListInventory()</strong>
+</p>
+<p>
+    Returns a current list of Items of the Inventory.
+</p>
+<p>
+    <strong>Item : GetItem(string)</strong>
+</p>
+<p>
+    <em>Parameters</em>: label item.
+</p>
+<p>
+    Returns an Item of the specific label.
+</p>
+<p>
+    Madrid, 11/01/2016
+</p>

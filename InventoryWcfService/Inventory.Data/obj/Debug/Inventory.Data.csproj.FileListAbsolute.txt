@@ -1,0 +1,9 @@
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\Inventory.Data\bin\Debug\Inventory.Data.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\Inventory.Data\bin\Debug\Inventory.Data.pdb
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\Inventory.Data\obj\Debug\Inventory.Data.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\Inventory.Data\obj\Debug\Inventory.Data.pdb
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\Inventory.Data\bin\Debug\Inventory.Data.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\Inventory.Data\bin\Debug\Inventory.Data.pdb
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\Inventory.Data\obj\Debug\Inventory.Data.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\Inventory.Data\obj\Debug\Inventory.Data.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\Inventory.Data\obj\Debug\Inventory.Data.pdb

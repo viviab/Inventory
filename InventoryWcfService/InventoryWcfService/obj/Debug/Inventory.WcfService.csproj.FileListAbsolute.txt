@@ -1,0 +1,16 @@
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\bin\InventoryWcfService.dll.config
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\bin\InventoryWcfService.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\bin\InventoryWcfService.pdb
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\bin\Inventory.Data.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\bin\Inventory.Data.pdb
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\obj\Debug\Inventory.WcfService.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\obj\Debug\InventoryWcfService.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\obj\Debug\InventoryWcfService.pdb
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\InventoryWcfService\bin\InventoryWcfService.dll.config
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\InventoryWcfService\bin\InventoryWcfService.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\InventoryWcfService\bin\InventoryWcfService.pdb
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\InventoryWcfService\bin\Inventory.Data.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\InventoryWcfService\bin\Inventory.Data.pdb
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\InventoryWcfService\obj\Debug\Inventory.WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\InventoryWcfService\obj\Debug\InventoryWcfService.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\InventoryWcfService\obj\Debug\InventoryWcfService.pdb

@@ -1,0 +1,22 @@
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\UnitTestInventory.dll
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\UnitTestInventory.pdb
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\Inventory.Data.dll
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\InventoryWcfService.dll
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\Inventory.Data.pdb
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\InventoryWcfService.pdb
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\obj\Debug\Inventory.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\obj\Debug\UnitTestInventory.dll
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\InventoryWcfService\UnitTestInventory\obj\Debug\UnitTestInventory.pdb
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\bin\Debug\UnitTestInventory.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\bin\Debug\UnitTestInventory.pdb
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\bin\Debug\Inventory.Data.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\bin\Debug\InventoryWcfService.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\bin\Debug\Inventory.Data.pdb
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\bin\Debug\InventoryWcfService.pdb
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\obj\Debug\Inventory.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\obj\Debug\UnitTestInventory.dll
+C:\Users\Javier\Documents\ValantExercise\InventoryWcfService\UnitTestInventory\obj\Debug\UnitTestInventory.pdb

@@ -1,0 +1,6 @@
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\bin\InventoryWcfService.dll.config
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\bin\InventoryWcfService.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\bin\InventoryWcfService.pdb
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\obj\Debug\InventoryWcfService.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\obj\Debug\InventoryWcfService.pdb
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\InventoryWcfService\obj\Debug\InventoryWcfService.csprojResolveAssemblyReference.cache

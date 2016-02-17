@@ -1,0 +1,29 @@
+Please design and code an inventory system. Please do the following:
+
+- Design and implement API layer to model and support the below requirements. You do not need to develop a UI for it, unless it helps you.
+- In memory data structure is okay (no database code needed)
+- Write tests
+- Please write production-quality code and provide a runnable solution (at least from tests as entry points)
+- Document your approach, assumptions, reasoning, and any notes you want to add for extensibility, maintainability, security, performance, etc, that you don't have time to implement.
+- Feel free to email me questions or send me descriptions of your understand of the requirements or if you want me to look over your initial design.
+
+
+
+Requirements
+1. Add an item to the inventory
+When I add a new item to the inventory
+Then inventory contains information about the newly added item, such as Label and Expiration Date.
+
+
+2. Take an item from the inventory by Label
+When I took an item out from the inventory
+Then the item is no longer in the inventory
+
+3. Notification that an item has been taken out.
+When I took an item out from the inventory
+Then there is a notification that an item has been taken out.
+
+
+4. Notification that an item has expired.
+When an item expires
+Then there is a notification about the expired item.

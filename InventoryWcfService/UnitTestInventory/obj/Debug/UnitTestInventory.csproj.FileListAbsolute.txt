@@ -1,0 +1,11 @@
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\UnitTestInventory.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\UnitTestInventory.pdb
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\InventoryWcfService.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\InventoryWcfService.pdb
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\obj\Debug\UnitTestInventory.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\obj\Debug\UnitTestInventory.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\obj\Debug\UnitTestInventory.pdb
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\Inventory.Data.dll
+c:\users\javier\documents\visual studio 2015\Projects\InventoryWcfService\UnitTestInventory\bin\Debug\Inventory.Data.pdb
